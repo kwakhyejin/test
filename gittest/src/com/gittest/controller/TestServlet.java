@@ -30,6 +30,7 @@ public class TestServlet extends HttpServlet {
 			System.out.println("하하하하");
 			System.out.println("호호호호호");
 			System.out.println("asdf");
+			System.out.println("이건 test가 추가한내용");
 		}
 		System.out.println("충돌");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
