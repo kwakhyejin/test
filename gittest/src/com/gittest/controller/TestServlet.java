@@ -27,7 +27,7 @@ public class TestServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		if(true) {
-			System.out.println("충돌되라!");
+			System.out.println("asdf");
 		}
 		System.out.println("충돌");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
